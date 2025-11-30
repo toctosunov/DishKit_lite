@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DishKit</string>
+    <string name="cafe_logo_description">Логотип кафе</string>
+    <string name="empty_dishes_message">Выберите категорию или в этой категории пока нет блюд.</string>
+
+    <string name="dish_image_description">Изображение блюда</string>
+    <string name="dish_name_placeholder">Вкусный Бургер</string>
+    <string name="dish_description_placeholder">Сочный бургер с говядиной, свежими овощами и фирменным соусом.</string>
+    <string name="dish_price_placeholder_som">250 сом</string>
+    <string name="add_to_cart">В корзину</string>
+    <string name="loading_message">Загрузка...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_category">Добавить категорию</string>
+</resources>

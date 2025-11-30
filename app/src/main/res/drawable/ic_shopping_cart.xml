@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960"
+    android:tint="#ffff">
+
+    <!-- Контур корзины с пустым центром -->
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="
+            M240,260h520l-60,120H300L240,260z
+
+            M300,380h460l-70,260H370L300,380z
+
+            M360,420h340l-50,180H410L360,420z
+        "/>
+
+    <!-- Ручка -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M240,260L180,180L270,180L320,260z"/>
+
+    <!-- Колёса -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="
+            M360,700a80,80 0 1,0 160,0a80,80 0 1,0 -160,0z
+            M580,700a80,80 0 1,0 160,0a80,80 0 1,0 -160,0z"/>
+</vector>
