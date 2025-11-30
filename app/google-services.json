@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "864443741425",
+    "project_id": "menu-64387",
+    "storage_bucket": "menu-64387.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864443741425:android:9b0fef3bd62f4a7e0fa550",
+        "android_client_info": {
+          "package_name": "kgz.senior.dishkit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe-rlHEapie6L793ma38xV2uj3g9wJ9RI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
