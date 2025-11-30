@@ -18,6 +18,7 @@
             android:text="Настройки кафе"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:layout_marginBottom="16dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -31,6 +32,7 @@
                 android:id="@+id/cafeNameEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:inputType="textCapWords" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -45,6 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Логотип:"
+                android:textColor="@color/black"
                 android:textSize="16sp" />
             <ImageView
                 android:id="@+id/logoPreviewImageView"
@@ -69,6 +72,7 @@
             android:text="Показывать изображения блюд"
             android:checked="true"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:paddingVertical="8dp"
             android:layout_marginBottom="8dp"/>
 
@@ -79,6 +83,7 @@
             android:text="Показывать описания блюд"
             android:checked="true"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:paddingVertical="8dp"
             android:layout_marginBottom="8dp"/>
 
@@ -89,6 +94,7 @@
             android:text="Показывать цены"
             android:checked="true"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:paddingVertical="8dp"
             android:layout_marginBottom="16dp"/>
 

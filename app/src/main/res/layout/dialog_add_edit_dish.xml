@@ -18,6 +18,7 @@
             android:id="@+id/dialogDishNameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:inputType="textCapWords" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -33,6 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
+            android:textColor="@color/black"
             android:lines="3" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -48,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="none"
+            android:textColor="@color/black"
             tools:ignore="LabelFor" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -62,6 +65,7 @@
             android:id="@+id/dialogDishPriceEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -77,6 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
+            android:textColor="@color/black"
             android:visibility="gone"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -86,6 +91,7 @@
         android:layout_height="wrap_content"
         android:text="Видимое в меню"
         android:checked="true"
+        android:textColor="@color/black"
         android:textSize="16sp"
         android:paddingVertical="8dp"
         android:layout_marginBottom="12dp"/>
@@ -101,6 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Изображение блюда:"
+            android:textColor="@color/black"
             android:textSize="16sp" />
         <ImageView
             android:id="@+id/dialogDishImagePreview"
