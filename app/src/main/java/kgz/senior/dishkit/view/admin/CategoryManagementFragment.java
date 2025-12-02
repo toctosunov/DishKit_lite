@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -209,7 +210,13 @@ public class CategoryManagementFragment extends Fragment
             adminViewModel.addOrUpdateCategory(categoryToSave);
         });
         builder.setNegativeButton("Отмена", (dialog, which) -> dialog.cancel());
-        builder.show();
+        AlertDialog dialog = builder.create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(R.drawable.my_custom_dialog_background);
+        }
+
+        dialog.show();
     }
 
     // --- Реализация интерфейса OnCategoryActionListener (для кликов в адаптере) ---

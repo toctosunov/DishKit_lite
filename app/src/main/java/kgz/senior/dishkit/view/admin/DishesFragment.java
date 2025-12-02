@@ -354,6 +354,11 @@ public class DishesFragment extends Fragment implements AdminMenuAdapter.OnMenuI
         builder.setNegativeButton("Отмена", (dialog, which) -> dialog.dismiss());
 
         AlertDialog dialog = builder.create();
+
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawableResource(R.drawable.my_custom_dialog_background);
+        }
+
         dialog.show();
     }
 
