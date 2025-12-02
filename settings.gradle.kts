@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DishKit"
+rootProject.name = "DishKit_lite"
 include(":app")
